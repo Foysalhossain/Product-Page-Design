@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.annoucment{
+    background-color: #527be9;
+    padding: 15px 30px;
+    
+}
+.annoucment p{
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.nav-menu {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-menu ul{
+    margin: 0px;
+    padding: 20px 0;
+}
+.nav-menu li {
+    display: inline-block;
+}
+.nav-menu a{
+    text-decoration: none;
+    padding: 12px 15px;
+    color: #3478a0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.nav-menu a:hover{
+    border-bottom: 3px solid #3478a0;   
+    
+}
+.content-box{
+    background-color: #3861e9;
+    width: 450px;
+    margin: auto;
+    padding: 40px 30px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin-top: 50px;
+}
+.content-box h1{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.content-box img{
+    max-width: 100%;
+    
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    padding: 30px;
+    flex-basis: 33.3%;
+}
+.product-box {
+    box-shadow: 0 0 10px 0 #0000005e;
+    padding: 25px 30px;
+    text-align: center;
+}
+.product-box img{
+    max-width: 100%;
+}
+.price{
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 300;
+}
+button {
+    background-color: #527be9;
+    color: #fff;
+    padding: 13px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+button:hover{
+    border: 2px solid #527be9;
+    color: #527be9;
+    background-color: transparent;
+    
+}
